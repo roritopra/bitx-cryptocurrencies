@@ -721,7 +721,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.9rem;
+    gap: 3.9rem;
   }
 
   .Cards-template {
@@ -792,5 +792,12 @@
     line-height: normal;
     width: 70%;
     margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .Bg-animation {
+    background: url(/src/img/bg-mobile.png);
+    background-repeat: no-repeat;
   }
 }
