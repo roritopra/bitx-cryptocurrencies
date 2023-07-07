@@ -1,0 +1,15 @@
+{
+  "name": "bitx-cryptocurrencies",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "cryptocurrencies"
+  ],
+  "author": "Juan Rodriguez rodrocarabali@gmail.com",
+  "license": "MIT"
+}
