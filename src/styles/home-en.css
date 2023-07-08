@@ -771,13 +771,18 @@
   }
 
   .Hero-right h2{
-    color: #FFF;
     font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     margin-bottom: 0.7rem;
   }
+
+  .Mobile-left h2 {
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.Mobile-left p {
+    font-size: 14px;
+}
 
   .Hero-right p { 
     font-size: 20px;
@@ -786,7 +791,7 @@
   .Contact-content p {
     color: #FFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

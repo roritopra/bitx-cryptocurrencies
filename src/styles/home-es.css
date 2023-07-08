@@ -591,13 +591,6 @@ nav {
 }
 }
 
-@media only screen and (max-width: 864px) {
-  .Cards-container {
-    gap: 3.9rem;
-    margin-bottom: 3rem;
-  }
-}
-
 @media only screen and (max-width: 900px) {
 .Bg-animation-mobile {
   width: 100%; 
@@ -670,6 +663,16 @@ nav {
   align-items: center;
 }
 
+.Cards-container {
+  gap: 1.9rem;
+}
+}
+
+@media only screen and (max-width: 864px) {
+.Cards-container {
+  gap: 3.9rem;
+  margin-bottom: 3rem;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -768,12 +771,17 @@ nav {
 }
 
 .Hero-right h2{
-  color: #FFF;
   font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
   margin-bottom: 0.7rem;
+}
+
+.Mobile-left h2 {
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.Mobile-left p {
+  font-size: 14px;
 }
 
 .Hero-right p { 
@@ -783,7 +791,7 @@ nav {
 .Contact-content p {
   color: #FFF;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -793,8 +801,8 @@ nav {
 }
 
 @media only screen and (max-width: 414px) {
-  .Bg-animation {
-    background: url(/src/img/bg-mobile.png);
-    background-repeat: no-repeat;
-  }
+.Bg-animation {
+  background: url(/src/img/bg-mobile.png);
+  background-repeat: no-repeat;
+}
 }
